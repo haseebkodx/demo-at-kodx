@@ -1,0 +1,29 @@
+// font for 404 Avenir-Light
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-not-found-404 {
+    color: #136AFB;
+    font-size: 11rem;
+}
+
+.page-not-found-header {
+    margin-top: 1rem;
+}
+
+.page-not-found {
+    font-size: 1rem;
+}
+
+.back-to-home-button {
+    padding: 15px;
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.back-to-home-text {
+    margin-right: 10px;
+}

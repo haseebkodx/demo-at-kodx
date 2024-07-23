@@ -1,0 +1,38 @@
+/*
+green background row color: #C6F1D6
+*/
+
+.section-container {
+    margin-bottom: 10rem;
+}
+
+.reviewer-page-heading {
+    font-weight: 600;
+}
+
+.reviewer-header {
+    background-color: #37527F;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.reviewer-header > tr > .reviewer-table-heading {
+    border: 1px solid #ffffff !important;
+}
+
+table > .reviewer-assignment-table-caption {
+    position: absolute;
+    left: -1000px;
+}
+
+.select-dropdown {
+    padding: 10px;
+}
+
+.add-border-bottom {
+    border-bottom: 2px solid #adaaaa9a;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+

@@ -1,0 +1,145 @@
+th, .subTotal{
+  text-align: center;
+}
+
+.total{
+  font-weight: bolder;
+}
+
+tr td:first-child{
+  font-weight: bold;
+}
+
+.table-data-detail{
+  font-weight: lighter;
+}
+
+.title-bold{
+  font-weight: bold
+}
+
+.agreement-content-container{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.continue-agreement-section{
+  background-color:#F5F5F5;
+  margin-right: -250px;
+  margin-left: -250px;
+}
+
+.continue-agreement-section h4 {
+  margin: 5px 0px 5px 250px;
+}
+
+.continue-agreement-section button {
+  margin: 5px 250px 5px 0px;
+}
+
+.continue-agreement-margin {
+  margin: 5px 0px 5px 250px;
+}
+
+.reviewer-section-title{
+   background-color: #dbdbdb;
+   padding: 10px;
+   margin-bottom: 20px !important;
+}
+
+.mentor-container{
+  position: relative;
+  min-height: 100%;
+}
+
+.hand-hover:hover{
+  cursor: pointer;
+}
+
+.summary-border{
+  border: 1px solid;
+  border-color: #172b4d;
+  padding-bottom: 2rem;
+}
+
+#switch-tabs{
+  .active{
+    background-color:#172b4d;
+    color:#ffffff;
+  }
+
+  .not-active{
+    background-color: gray !important;
+    color: #ffffff !important;
+  }
+}
+
+.modal-backdrop
+{
+    opacity:0.9 !important;
+}
+
+.pending-submission{
+  color: #e69500;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pending-status{
+  color: #172b4d;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.fixed-position-tabs{
+  position: fixed;
+  top: 55px;
+  left: 200;
+  z-index: 11;
+  background-color: #ffffff;
+}
+
+.view-docusign-button {
+  border: 3px solid #172b4d;
+}
+
+.bold-label{
+  font-size: 16px;
+  font-weight:600;
+}
+.underline-header{
+text-decoration: underline;
+}
+
+.not-provided{
+  font-style: italic;
+}
+
+.delete-button{
+  margin-top: 28px;
+}
+
+.pending-protege-submission{
+  margin-bottom: 200px;
+}
+
+.section-header{
+  font-size: 24px;
+}
+
+.tab-background-active{
+  background-color: #172b4d !important;
+  color: #ffffff !important;
+}
+
+.tab-background-not-active{
+  background-color: gray !important;
+  color: #ffffff !important;
+}
+
+

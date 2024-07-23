@@ -1,0 +1,144 @@
+
+
+.acceptable-file-types-and-size {
+  width: 90%;
+}
+
+input[type='file'] {
+  position: absolute;
+  right: -9999px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.select-files-button {
+  padding: 0.75rem 0.75rem 0.75rem 0px;
+  border: none;
+  background: transparent;
+  &:hover {
+    cursor: pointer !important;
+    outline: none;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    background: #172b4d;
+    color: #fff;
+    transition: 0.2s all;
+    border-radius: 13px;
+  }
+  &:focus {
+    outline: none;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    border-radius: 13px;
+    border: 2px solid #172b4d;
+  }
+}
+
+.multifile-upload-container {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.error-message {
+  background-color: #ffc107;
+  font: black;
+}
+
+.upload-progress-bar[aria-valuenow='0'] {
+  transition: none;
+}
+
+.modal-footer-two-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upload-files-btn {
+  margin-right: 20px;
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #6c757d !important;
+  }
+}
+
+.icon-and-text-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-span {
+  padding-left: 10px !important;
+  padding-right: 20px;
+}
+
+.remove_file_role {
+  border: none;
+  background-color: transparent;
+}
+
+.span-text-spacing {
+  padding-left: 10px !important;
+}
+
+.message-alert {
+  width: 100%;
+}
+
+.delete-file-btn,
+.view-single-file {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.view-single-file {
+  &:focus {
+    text-decoration: underline;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.loading-status {
+  z-index: 1000;
+  position: absolute;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.edit-single-file {
+  display: flex;
+}
+
+.review-single-file {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.list-header {
+  font: 20px;
+  color: #1b2534;
+}
+
+.files-modal {
+  min-width: 600px;
+}
+
+.select-files-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.listGroupFiles .list-group-item:hover {
+  background-color: #f6f7fa;
+}
+
+

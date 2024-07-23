@@ -1,0 +1,48 @@
+.reviewer-agreement-container {
+  position: relative;
+}
+
+.reviewer-header-card:hover {
+  cursor: pointer;
+}
+
+.rejection-reason-text-height {
+  height: auto;
+  max-height: 200px;
+  overflow-y: auto;
+  // border: 2px solid gray;
+  padding: 5px;
+}
+
+.reviewer-table {
+  border: 1px solid lightgray;
+}
+
+.reviewer-summary-header {
+  text-align: left;
+  font: normal normal bold 24px Segoe UI;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+  opacity: 1;
+}
+
+.reviewer-section-separation {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.reviewer-header {
+  text-decoration: underline;
+}
+
+.reviewer-rejection:hover {
+  cursor: pointer;
+}
+
+.modal-footer-exit-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.showing-apps-heading {
+	font-size: 1rem;
+}

@@ -1,0 +1,167 @@
+
+.icon-background {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
+.active{
+  color:  #172B4D;
+  border: 2px solid #172B4D;
+}
+
+.time-line-icon{
+  font-size: 40px;
+  color:#ffffff;
+}
+
+.content-wrap {
+  width:600px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+}
+
+.content-wrap::before {
+  position: absolute;
+  top: calc(45% - 1px);
+  right: 140px;
+  left: 127px;
+  Content: "";
+  Background-color: grey;
+  height: 2px;
+}
+
+.timeline-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  background-color: #F3F3F3;
+}
+
+.user-content-container{
+  margin: 0px 60px;
+}
+
+.section-heading{
+  text-align: left;
+  letter-spacing: 0px;
+  color: #1F1F1F;
+  opacity: 1;
+}
+
+.section-heading-font{
+  font: normal normal bold 30px Segoe UI;
+}
+
+.search-company-heading{
+  text-align: left;
+  font: normal normal 600 20px Segoe UI;
+  letter-spacing: 0px;
+  color: #1F1F1F;
+  opacity: 1;
+}
+
+.vertical-container {        
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  zoom: 1.2;
+}
+
+#poc-format{
+  p{
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
+  .title{
+    font-size: 20px;
+  }
+}
+
+#point-of-contact{
+  .poc-container{
+    background-color: #f6f6f6;
+  }
+
+}
+
+.poc-container-height{
+    position: relative;
+}
+
+.input-container {
+  position: relative;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-right: 100px;
+}
+
+.input-text-border {
+  border: 2px solid #dbdbdb !important;
+}
+
+.text-font-size {
+  font-size: 18px;
+}
+
+.text-font-italic {
+  font-style: italic;
+}
+
+.company-text-field {
+  font-size: 14px;
+}
+
+.company-code-field {
+  position: relative;
+  bottom: 30px;
+}
+
+.user-company-profile-tabs, .reviewer-dashboard-tabs {
+  h1{
+    font-size: 24px;
+  }
+
+  .nav-tabs {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .tab-Item {
+    font-weight: bold;
+    border-bottom: 3px solid blue !important;
+  }
+
+  .tab-content {
+    margin-top: 15px;
+    margin-left: 15px;
+
+    .active {
+      border: 0;
+    }
+
+    .user-profile-tab-content-info {
+      border-bottom: 2px solid black;
+
+      .input-text-field {
+        position: relative;
+        bottom: 5px;
+      }
+    }
+
+    .change-item {
+      color: blue;
+    }
+  }
+}

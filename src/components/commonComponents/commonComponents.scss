@@ -1,0 +1,33 @@
+.view-docusign-button {
+  border: 3px solid #172b4d;
+}
+
+.side-bar-text {
+  background-color: lightgray;
+  height: 55px; 
+  position: absolute; 
+  top: 120px;
+  right: 0;
+  transform-origin: right;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.side-bar-content {
+  position: relative;
+  bottom: 25px;
+  font-size: 24px;
+}
+
+.side-bar-content:hover, .side-bar-img-btn:hover {
+  cursor: pointer;
+}
+
+.side-bar-file-upload {
+  color: darkblue !important;
+}
+
+.side-bar-file-upload:hover {
+  border-bottom: 2px solid darkblue;
+}

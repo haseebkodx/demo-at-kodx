@@ -1,0 +1,7 @@
+export const SET_REVIEWER_MENTOR_APPLICATION_PAGE = 'set_reviewer_mentor_application_page';
+
+export const SET_REVIEWER_MENTOR_PROTEGE_AGREEMENT_PAGE = 'set_reviewer_mentor_protege_agreement_page';
+
+export const SET_REVIEWER_MENTOR_APPLICATION_STATUS = 'set_reviewer_mentor_application_status';
+
+export const SET_REVIEWER_MENTOR_PROTEGE_AGREEMENT_STATUS = 'set_reviewer_mentor_protege_agreement_status';

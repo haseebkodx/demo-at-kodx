@@ -1,0 +1,92 @@
+.protege-block{
+  border: 1px solid #707070;
+  padding: 15px;
+}
+
+.invite-protege-block-heading{
+  font: normal normal bold 20px Segoe UI;
+}
+
+.redeem-invite{
+  width: 100%;
+  height: fit-content;
+  border: 2px solid #172b4d;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-title{
+  color: #172b4d;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.card{
+  max-width: 100%;
+}
+
+.invite-mail-img{
+  margin-left: 40%;
+}
+
+.card-text{
+  word-wrap: break-word;
+  font-size: 16px;
+  margin: 10px 0 20px 0;
+}
+
+.input-checkbox{
+  font-size: .7rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.line-break{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.redeem-invite-btn {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.invite-status-table-header {
+  background-color: #37527F;
+  color: #ffffff;
+}
+
+#protégé-invitation-status {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px !important;
+}
+
+.first-cell {
+  padding-left: 20px !important;
+}
+
+.invite-status-table-header > tr > .column-name {
+  border: 1px solid white !important;
+}
+
+.back-button {
+  border-bottom: 1px solid #707070;
+}
+
+.send-invitation-confirmation {
+  margin-top: -50px;
+  margin-left: -40px;
+}
+
+.border-button {
+  border: 2px solid #172b4d; 
+}
+
+.modal-button-width{
+  width: 150px !important;
+}

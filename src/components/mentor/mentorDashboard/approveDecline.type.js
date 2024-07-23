@@ -1,0 +1,1 @@
+export const SET_APPROVED_AGREEMENT = 'set_approved_agreement'

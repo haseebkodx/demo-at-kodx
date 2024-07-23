@@ -1,0 +1,140 @@
+.expand-collapse{
+  border: 1px solid #707070;
+  padding-left: 15px;
+  opacity: 1;
+}
+
+.mentor-summary-section-heading{
+  font: normal normal bold 24px Segoe UI;
+  letter-spacing: 0px;
+  color: #172B4D;
+  opacity: 1;
+}
+
+h3.mentor-summary-section-heading {
+  font: normal normal bold 20px Segoe UI;
+}
+
+.mentor-application-header {
+  text-align: left;
+  font: normal normal bold 20px Segoe UI;
+  letter-spacing: 0px;
+  color: #1F1F1F;
+  opacity: 1;
+}
+
+.button-border {
+  border: 3px solid #172b4d;  
+}
+
+.anchor-tag-cls {
+  color: #172b4d;
+  text-decoration: underline;
+}
+
+.success-application {
+  border: 1px solid #707070;
+  background-color: #D6DDE8;
+  position: relative;
+}
+
+.success-checkmark {
+  position: absolute;
+  top: 0px;
+  left: -20px;
+}
+
+.success-close {
+  position: absolute;
+  top: -15px;
+  right: -30px;
+}
+
+.success-close:hover {
+  cursor: pointer;
+}
+
+#mentor-application-summary, #mentor-protege-summary, #mentor-application-form {
+  .top-back-button {
+    border-bottom: 1px solid #707070;
+  }
+
+  .bottom-back-button {
+    border: 3px solid #172b4d;
+  }
+
+  .dod-contracts h3 {
+    font-size: 17px;
+  }
+
+  .dod-contracts h4 {
+    font-size: 16px;
+  }
+  
+  table {
+    tr {
+      height: 30px;
+    }
+  }
+
+  .column-section {
+    border: 1px solid #707070;
+  }
+
+  .heading-text {
+    font-weight: bold;
+  }
+
+  .sub-heading{
+    font: normal normal 900 16px Segoe UI;
+    letter-spacing: 0px;
+    color: #2B2B2B;
+    opacity: 1;
+  }
+  .second-sub-heading{
+   margin: 10px 0px;
+  }
+}
+
+.summary-files-table {
+  margin-top: 15px;
+}
+
+.agree-to-terms-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.terms-label {
+  margin-bottom: 0px;
+  line-height: 1.3;
+}
+
+.mentor-app-submit {
+
+  &[aria-disabled='true'] {
+    padding-top: 6.25px;
+    padding-bottom: 6.25px;
+  }
+}
+
+fieldset {
+  border: none;
+}
+
+.terms-container {
+  padding-left: 0px;
+}
+
+.question-p {
+  word-wrap: normal;
+}
+
+.label-paragraph {
+  line-height: 1.5;
+  margin-top: -0.25rem;
+}
+.title-heading{
+  font-size: 24px;
+}
