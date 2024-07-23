@@ -289,7 +289,7 @@ function Navbar() {
     setLoginSignup(val);
   };
 
-  return (
+  return ( 
     <div>
       {currentUserInfo && currentUserInfo.uuid && (
         <IdleTimer
