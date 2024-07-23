@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true,
+    "jasmine": true,
+    "node": true
+  },
+  "plugins": ["import"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "react/prop-types": 0,
+    "no-func-assign": 0
+  }
+}
