@@ -327,7 +327,7 @@ function Navbar() {
         />
       }
 
-      <div className="relative z-40 flex sm:justify-end md:justify-end  py-6">
+      <div className="relative z-40 flex pr-6 sm:justify-between sm:ml-2 md:justify-end py-6 lg:ml-80">
         <div
           className="hidden items-start sm:flex flex-col cursor-pointer"
           onClick={() => setIsMenuActive(!isMenuActive)}

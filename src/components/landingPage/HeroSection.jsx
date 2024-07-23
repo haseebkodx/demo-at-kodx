@@ -47,7 +47,7 @@ const HeroSection = () => {
           className="w-full object-cover h-[783px] sm:min-h-[850px]"
         />
 
-        <div className="absolute top-0 right-0 w-[800px]">
+        <div className="absolute top-0 right-0">
           <Navbar />
           <div className="hidden sm:block sm:absolute top-4 right-8 pt-2">
           <a
