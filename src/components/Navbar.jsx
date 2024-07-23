@@ -327,9 +327,9 @@ function Navbar() {
         />
       }
 
-      <div className="relative z-40 flex sm:justify-center md:justify-end px-6 py-6 sm:gap-6 gap-12">
+      <div className="relative z-40 flex sm:justify-end md:justify-end  py-6">
         <div
-          className="hidden sm:flex flex-col gap-[6px] cursor-pointer"
+          className="hidden items-start sm:flex flex-col cursor-pointer"
           onClick={() => setIsMenuActive(!isMenuActive)}
           aria-label="Toggle menu"
         >

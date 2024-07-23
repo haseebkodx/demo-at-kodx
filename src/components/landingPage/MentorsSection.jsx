@@ -44,7 +44,7 @@ const MentorsSection = () => {
             <img src={users} className="md:w-16 sm:w-11" alt="Users icon" />
           }
           heading={
-            <span className="md:text-xs">
+            <span className="md:text-xs sm:text-sm">
               Develop a high-quality <br /> subcontracting pool
             </span>
           }
@@ -52,11 +52,9 @@ const MentorsSection = () => {
         <InfoCard
           logo={<img src={cash} className="md:w-16 sm:w-11" alt="Cash icon" />}
           heading={
-            <span className="md:text-xs">
+            <span className="md:text-xs sm:text-sm">
               Receive cost reimbursement
-              <br />
               and a credit toward small
-              <br />
               business contracting goals
             </span>
           }
@@ -66,8 +64,8 @@ const MentorsSection = () => {
             <img src={people} className="md:w-20 sm:w-11" alt="People icon" />
           }
           heading={
-            <span className="md:text-xs">
-              Pursue new market opportunities <br />
+            <span className="md:text-xs sm:text-sm">
+              Pursue new market opportunities
               as part of a team
             </span>
           }
@@ -80,7 +78,7 @@ const MentorsSection = () => {
           >
             <Button
               title={
-                <span className="md:text-xs">
+                <span className="md:text-xs sm:px-5 text-nowrap">
                   LEARN MORE ABOUT <strong>MENTORING</strong>
                 </span>
               }

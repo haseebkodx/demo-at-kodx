@@ -13,7 +13,7 @@ const JoinSection = () => {
     <section className="w-full z-40 relative bg-[#071646] px-[120px] md:px-10 sm:flex-col sm:justify-center sm:gap-4 sm:px-8 py-8 flex items-center justify-between">
       <div className="flex gap-2 justify-center items-center sm:w-full">
         <img src={line} alt="Decorative line" />
-        <p className="ml-3 font-lato text-xl md:text-xs sm:text-sm tracking-[0.03em] text-white m-0 flex items-start justify-start text-start">
+        <p className="ml-3 font-lato text-xl md:text-xs sm:text-xs tracking-[0.03em] text-white m-0 flex items-start justify-start text-start">
           JOIN OUR MENTOR COMMUNITY <br />
           REPRESENTING TOP PRIME CONTRACTORS
         </p>

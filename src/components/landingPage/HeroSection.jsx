@@ -82,7 +82,7 @@ const HeroSection = () => {
           <img
             src={sideBg}
             alt="Side background"
-            className="pt-6 z-20 w-full hidden sm:block max-w-max sm:max-w-full sm:w-7/12 object-contain sm:translate-y-[-100px] sm:translate-x-[400px] opacity-50"
+            className="pt-6 z-20 w-full hidden sm:block max-w-max sm:max-w-full sm:w-7/12 object-contain sm:translate-y-[-80px] sm:translate-x-[400px] opacity-50"
           />
         </div>
 
@@ -101,7 +101,7 @@ const HeroSection = () => {
               </h1>
               <p className="font-lato max-w-[600px] md:w-3/5 font-normal leading-[1.3] text-3xl md:text-xl text-white sm:text-base pb-2 sm:text-start">
                 Easily access your{" "}
-                <span className="text-[28px] md:text-lg sm:text-lg font-semibold text-[#FFE45F]">
+                <span className="text-[28px] md:text-lg sm:text-base font-semibold text-[#FFE45F]">
                   Mentor-Protégé Program
                 </span>
                 <br />

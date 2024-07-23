@@ -13,11 +13,10 @@ const MppSubmitSection = () => {
         alt="Main background"
         className="absolute left-0 top-0 w-screen object-cover h-full bg-[#243d80]"
       />
-      <div className="relative">
-        <h1 className="font-lato font-bold text-white text-5xl sm:text-3xl leading-tight text-center w-full py-12 px-8 sm:px-0 m-0">
+      <div className="relative flex flex-col justify-center">
+        <h1 className="font-lato font-bold text-white text-3xl sm:text-xl leading-tight text-wrap xl:text-start sm:text-start py-12 px-8 xl:px-96 md:px-32 sm:px-8 m-0">
           Network with current and potential Mentors and
-          <br /> Protégés at the annual
-          <span className="text-[#FFE45F]"> Mentor-Protégé Summit.</span>
+          Protégés at the annual <span className="text-[#FFE45F]"> Mentor-Protégé Summit.</span>
         </h1>
         <div className="z-30 w-full items-center justify-center space-y-4 sm:top-32 flex flex-col px-8 xl:space-y-16 lg:space-y-10">
           <img

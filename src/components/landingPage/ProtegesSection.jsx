@@ -31,9 +31,9 @@ const ProtegesSection = () => {
 
   return (
     <section className="bg-linearBlue500 w-6/12 sm:w-full flex justify-center sm:py-8">
-      <div className="flex flex-col sm:items-start space-y-8 md:px-20 py-[72px] sm:py-[20px] sm:px-5">
+      <div className="flex flex-col space-y-8 md:px-20 py-[72px] sm:py-[20px] sm:px-5">
       {isMobile && (
-        <div className="hidden sm:flex sm:flex-wrap sm:gap-8 sm:px-7">
+        <div className="hidden sm:flex justify-center sm:gap-8">
           {dots.map((_, index) => (
             <div
               key={index}
@@ -99,7 +99,7 @@ const ProtegesSection = () => {
           >
             <Button
               title={
-                <span className="md:text-xxs">
+                <span className="md:text-xs sm:px-5 text-nowrap">
                   LEARN MORE ABOUT <strong>Protégés</strong>
                 </span>
               }
